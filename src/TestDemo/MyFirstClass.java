@@ -1,29 +1,30 @@
 package TestDemo;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class MyFirstClass {
 	
 	public static void main(String arg[]) {
-		int a=5;
-		int b=6;
-		int c=0;
-		int d=0;
-		int e=0;
-		c=a+b;
+		int a1=5;
+
+		Integer[] a={58457907};
 		
-		//Code Changes for the subtract
-		d=c-a;
-		e=d-b;
+		List<Integer> al = Arrays.asList(a);
+
+		Collections.sort(al);
+
+		int k = 4;
+
+		List<Integer> sl = al.subList(0, k);
 		
-		//sum of two numbers
-		System.out.println(e);
+		System.out.println(sl);
 		
-		//subtract of two numbers
-		System.out.println(c);
+		int diff=sl.get(k-1)-sl.get(0);
 		
-		
-		System.out.println(a-b);
-			
-		System.out.println(a*b);
+		System.out.println(diff);
+
 	}
 
 }
