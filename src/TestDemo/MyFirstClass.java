@@ -8,6 +8,7 @@ public class MyFirstClass {
 		int c=0;
 		c=a+b;
 		
+		//sum of two numbers
 		System.out.println(c);
 		
 		
