@@ -20,11 +20,10 @@ public class MyFirstClass {
 		//subtract of two numbers
 		System.out.println(c);
 		
-		//Multiply
+		
+		System.out.println(a-b);
+			
 		System.out.println(a*b);
-		
-		
-		
 	}
 
 }
