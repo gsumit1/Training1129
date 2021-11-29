@@ -24,6 +24,7 @@ public class MyFirstClass {
 		int diff=sl.get(k-1)-sl.get(0);
 		
 		System.out.println(diff);
+		
 
 	}
 
