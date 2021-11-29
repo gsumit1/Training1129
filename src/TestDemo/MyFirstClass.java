@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 public class MyFirstClass {
 
 	public static void main(String arg[]) {
+
 		int a5 = 5;
 
 		String s = "My Name is Sumit";
@@ -24,21 +25,28 @@ public class MyFirstClass {
 		int c=a1+b;
 
 		Integer[] a={58457907};
-		
-		List<Integer> al = Arrays.asList(a);
+			
 
-		Collections.sort(al);
+		String st="KKKK";
+		
+		try {
+		for(int i=0; i<st.length();i++) {
+			for(int j=1;j<st.length();j++) {
+				
+				
+				
+				String sb=st.substring(i+1, j);
+				
+				System.out.println(sb);
+				
+				
+				
+				
+				
+			}
+		}
+		
+		}catch(Exception e) {}
 
-		int k = 4;
-
-		List<Integer> sl = al.subList(0, k);
-		
-		System.out.println(sl);
-		
-		int diff=sl.get(k-1)-sl.get(0);
-		
-		System.out.println(diff);
-		
-	}
-
+}
 }
