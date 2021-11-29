@@ -3,11 +3,25 @@ package TestDemo;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public class MyFirstClass {
-	
+
 	public static void main(String arg[]) {
-		int a1=5;
+		int a5 = 5;
+
+		String s = "My Name is Sumit";
+
+		System.out.println(Pattern.compile("^N").matcher("Name").find());
+
+		for (String a : s.split(" ")) {
+			if (Pattern.compile("^N").matcher("Name").find() == false) {
+				System.out.println(a);
+			}
+		}
+		int a1=10;
+		int b=20;
+		int c=a1+b;
 
 		Integer[] a={58457907};
 		
@@ -25,7 +39,6 @@ public class MyFirstClass {
 		
 		System.out.println(diff);
 		
-
 	}
 
 }
