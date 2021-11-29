@@ -11,6 +11,10 @@ public class MyFirstClass {
 		//sum of two numbers
 		System.out.println(c);
 		
+		//Multiply
+		System.out.println(a*b);
+		
+		
 		
 	}
 
