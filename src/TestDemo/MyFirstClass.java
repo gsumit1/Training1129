@@ -7,25 +7,35 @@ import java.util.List;
 public class MyFirstClass {
 	
 	public static void main(String arg[]) {
-		int a1=5;
 
 		Integer[] a={58457907};
-		
-		List<Integer> al = Arrays.asList(a);
-
-		Collections.sort(al);
-
-		int k = 4;
-
-		List<Integer> sl = al.subList(0, k);
-		
-		System.out.println(sl);
-		
+			
 		int diff=sl.get(k-1)-sl.get(0);
 		
 		System.out.println(diff);
 		
 
 	}
+	
+		String st="KKKK";
+		
+		try {
+		for(int i=0; i<st.length();i++) {
+			for(int j=1;j<st.length();j++) {
+				
+				
+				
+				String sb=st.substring(i+1, j);
+				
+				System.out.println(sb);
+				
+				
+				
+				
+				
+			}
+		}
+		
+		}catch(Exception e) {}
 
 }
